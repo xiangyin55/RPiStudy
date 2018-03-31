@@ -12,9 +12,9 @@ RPi.GPIO.setup(R, RPi.GPIO.OUT)
 RPi.GPIO.setup(G, RPi.GPIO.OUT)
 RPi.GPIO.setup(B, RPi.GPIO.OUT)
  
-pwmR = RPi.GPIO.PWM(R, 70)
-pwmG = RPi.GPIO.PWM(G, 70)
-pwmB = RPi.GPIO.PWM(B, 70)
+pwmR = RPi.GPIO.PWM(R, 80)
+pwmG = RPi.GPIO.PWM(G, 80)
+pwmB = RPi.GPIO.PWM(B, 80)
  
 pwmR.start(0)
 pwmG.start(0)
