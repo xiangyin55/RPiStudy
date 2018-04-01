@@ -5,7 +5,8 @@ import RPi.GPIO
 import time
  
 R,G,B=12,10,8
- 
+
+RPi.GPIO.setwarnings(False)
 RPi.GPIO.setmode(RPi.GPIO.BOARD)
  
 RPi.GPIO.setup(R, RPi.GPIO.OUT)

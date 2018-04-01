@@ -6,6 +6,7 @@ import time
 
 led = 8
 
+RPi.GPIO.setwarnings(False)
 RPi.GPIO.setmode(RPi.GPIO.BOARD)
 RPi.GPIO.setup(led, RPi.GPIO.OUT)
 
