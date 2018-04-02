@@ -4,6 +4,6 @@ LED 是英文 Light Emitting Diode（发光二极管）的缩写。它有2个脚
 
 * [LED灯](led.py) 
 * [呼吸灯](led_pwd.py)  
-* [RGB彩灯] (led_rgb.py)
+* [RGB彩灯](led_rgb.py)
 * [交通信号灯](https://github.com/sbcshop/PiTraffic)
 * [音乐彩灯](https://github.com/scottlawsonbc/audio-reactive-led-strip) 
