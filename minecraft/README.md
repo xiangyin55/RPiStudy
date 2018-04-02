@@ -1,5 +1,7 @@
 我的世界Minecraft编程
 ---
+![](https://img3.doubanio.com/view/note/large/public/p32807716.jpg)
+
 ### 安装
 在树莓派上安装我的世界（Minecraft PI）和python开发接口
 ```
