@@ -1,6 +1,11 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
+# !!!以lighttpd服务启动用户www-data运行bypy info
+# !!!输入验证授权码
+# !!!确认可以上传百度云盘
+# runuser -l www-data -s /bin/sh -c 'bypy info' 
+
 import os
 import time
 
