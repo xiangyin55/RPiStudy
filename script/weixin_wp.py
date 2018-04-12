@@ -5,6 +5,7 @@ import itchat, time
 import os
 from itchat.content import *
 
+phcmd="export DISPLAY=:0.0 && nohup /usr/bin/feh -g 1280x768 -rZFD 30 -Smtime /root/photos  >feh.file 2>&1 &"
 @itchat.msg_register([PICTURE, RECORDING, ATTACHMENT, VIDEO])
 def download_files(msg):
   stime = time.strftime('%Y/%Y%m/%Y%m%d/', time.localtime())
@@ -21,8 +22,8 @@ def download_files(msg):
   if msg.Type == 'Picture':
     msg.download(phdir + msg.FileName)
     os.system("killall feh")
-    os.system(imgcmd)
+    os.system(phcmd)
 
-
-itchat.auto_login()
+os.system(phcmd)
+itchat.auto_login(hotReload=True)
 itchat.run()
