@@ -1,0 +1,6 @@
+
+ sed -i '/^[#].*$/d' filename  #删除＃开头的行
+ sed 's/^[ \t]*//g'  filename  #删除行首空格
+ sed 's/[ \t]*$//g'  filename  #删除行末空格
+ sed s/[[:space:]]//g filename #删除所有的空格 
+ 
