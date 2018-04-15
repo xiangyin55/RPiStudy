@@ -1,7 +1,10 @@
 #!/bin/bash
-# OpenVPN road warrior installer for Debian, Ubuntu and CentOS
-# backup from https://github.com/Nyr/openvpn-install/blob/master/openvpn-install.sh
 
+# backup from https://github.com/Nyr/openvpn-install/blob/master/openvpn-install.sh
+# install cmd
+# wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
+
+# OpenVPN road warrior installer for Debian, Ubuntu and CentOS
 # This script will work on Debian, Ubuntu, CentOS and probably other distros
 # of the same families, although no support is offered for them. It isn't
 # bulletproof but it will probably work if you simply want to setup a VPN on
